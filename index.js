@@ -21,17 +21,17 @@ function checking(arg)
   switch (arg)
   {
     case "w":
-      var tom1 = new Audio('sounds/tom-1.mp3');
+      var tom1 = new Audio('tom-1.mp3');
       tom1.play();
       break;
 
     case "a":
-      var tom2 = new Audio('sounds/tom-2.mp3');
+      var tom2 = new Audio('tom-2.mp3');
       tom2.play();
       break;
 
     case "s":
-      var tom3 = new Audio('sounds/tom-3.mp3');
+      var tom3 = new Audio('tom-3.mp3');
       tom3.play();
       break;
 
@@ -41,17 +41,17 @@ function checking(arg)
       break;
 
     case "j":
-      var kickbass = new Audio('sounds/kick-bass.mp3');
+      var kickbass = new Audio('kick-bass.mp3');
       kickbass.play();
       break;
 
     case "k":
-      var snare = new Audio('sounds/snare.mp3');
+      var snare = new Audio('snare.mp3');
       snare.play();
       break;
 
     case "l":
-      var crash = new Audio('sounds/crash.mp3');
+      var crash = new Audio('crash.mp3');
       crash.play();
       break;
 
